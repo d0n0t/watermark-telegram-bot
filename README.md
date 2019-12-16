@@ -24,4 +24,6 @@ sh run.sh
 
 ### Also thanks [@pamu_wi](https://t.me/pamu_wi)
 
+---
+
 ## ENJOY
