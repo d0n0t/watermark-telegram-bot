@@ -18,8 +18,8 @@ pip3 install -r requirements.txt
 sh run.sh
 ```
 
-## Specially Thanks for [THIS](https://github.com/ijustbsd/watermark-telegram-bot) Repo
+### Specially Thanks for [THIS](https://github.com/ijustbsd/watermark-telegram-bot) Repo
 
-## Also thanks [@pamu_wi](https://t.me/pamu_wi)
+### Also thanks [@pamu_wi](https://t.me/pamu_wi)
 
 ## ENJOY

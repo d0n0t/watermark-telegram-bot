@@ -42,4 +42,5 @@ def send_watermark(message):
     bot.delete_message(chat_id=chat_id, message_id=message_id)
 
 
+print('watermark bot started successfully!')
 bot.polling()
