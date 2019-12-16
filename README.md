@@ -1,8 +1,10 @@
 # Watermark-Telegram-Bot
 
+---
+
 1. fork this repo
 
-2. edit config.py
+2. edit **config.py**
 
 3. download your repo
 
