@@ -1,12 +1,18 @@
 # Watermark-Telegram-Bot
 
-1. install requirements
+1. fork this repo
+
+2. edit config.py
+
+3. download your repo
+
+4. install requirements
 
 ```
 pip3 install -r requirements.txt
 ```
 
-2. run the bot
+5. run the bot
 
 ```
 sh run.sh
