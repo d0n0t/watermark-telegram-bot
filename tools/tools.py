@@ -34,7 +34,7 @@ def watermark(img, new_fname, color):
     alpha = ImageEnhance.Brightness(alpha).enhance(config.TRANSPARENCY)
     wm.putalpha(alpha)
     out_path = 'images/out/{}/{}'.format(color, new_fname)
-    Image.composite(wm, img, wm).save(out_path, 'JPEG', quality=config.QUALITY)
+    Image.composite(wm, img, wm).save(out_path, 'JPEG', optimize=False, quality=config.QUALITY)
 
 
 def md5(path):
