@@ -18,17 +18,17 @@
         },
         "FONT_SIZE": {
             "description": "Font size",
-            "value": 15,
+            "value": "15",
             "required": false
         },
         "TRANSPARENCY": {
             "description": "Font transparency",
-            "value": 0.75,
+            "value": "0.75",
             "required": false
         },
         "QUALITY": {
             "description": "Image quality",
-            "value": 100,
+            "value": "100",
             "required": false
         }
     },
