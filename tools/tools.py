@@ -23,7 +23,7 @@ def getting_ready(path):
 def watermark(img, new_fname, color):
     text = config.WATERMARK
     wm = Image.new('RGBA', img.size, (0, 0, 0, 0))
-    fontsize = img.size[1] // 100 * config.FONT_SIZE
+    fontsize = img.size[1] //* config.FONT_SIZE
     font = ImageFont.truetype(f'tools/fonts/{config.FONT_NAME}', fontsize)
     indent = fontsize // 6
     w, h = font.getsize(text)
