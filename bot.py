@@ -22,7 +22,7 @@ def echo_all(message):
 @bot.message_handler(content_types=["photo"])
 def send_watermark(message):
     chat_id = message.chat.id
-    sent_message = bot.reply_to(message, 'Downloading...')
+    sent_message = bot.reply_to(message, 'thoda shanti rakho')
     message_id = sent_message.message_id
     file = bot.get_file(message.photo[0].file_id)
     downloaded_file = bot.download_file(file.file_path)
