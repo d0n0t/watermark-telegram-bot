@@ -28,7 +28,7 @@
         },
         "QUALITY": {
             "description": "Image quality",
-            "value": "100",
+            "value": "1080",
             "required": false
         }
     },
