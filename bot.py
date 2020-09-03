@@ -11,7 +11,7 @@ bot = telebot.TeleBot(config.BOT_TOKEN)
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
-    bot.send_message(message.chat.id, 'Hi, Send or Forward me a PHOTO!')
+    bot.send_message(message.chat.id, 'ek LAFA dunga , Image Bhej MEKO start nhi')
 
 
 @bot.message_handler(func=lambda message: True)
